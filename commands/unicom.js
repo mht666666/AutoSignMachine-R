@@ -18,6 +18,16 @@ exports.builder = function (yargs) {
       default: '',
       type: 'string'
     })
+    .option('user-1', {
+      describe: '用于登录的手机号码',
+      default: '',
+      type: 'string'
+    })
+    .option('password-1', {
+      describe: '用于登录的账户密码',
+      default: '',
+      type: 'string'
+    })
     .option('appid', {
       describe: 'appid',
       default: '',
