@@ -14,10 +14,12 @@ exports.builder = function (yargs) {
     })
     .option('username', {
       describe: '登陆账号',
+      default: '13271473920',
       type: 'string'
     })
     .option('password', {
       describe: '登陆密码',
+      default: 'qqqqqqq1',
       type: 'string'
     })
     .option('NumberOfCoins', {
